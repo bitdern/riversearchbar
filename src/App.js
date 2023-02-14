@@ -1,5 +1,5 @@
 // page components
-// this is where we'd import a search page, which we'll need to create
+import Searchbar from "./components/searchbar";
 
 // styles
 import "./App.css";
@@ -8,8 +8,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Search Bar</p>
+        <p>Bitcoin Learning Center</p>
       </header>
+      <div>
+        <Searchbar />
+      </div>
     </div>
   );
 }
