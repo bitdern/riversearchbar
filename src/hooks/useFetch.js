@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 
+// passes the URL prop into the useFetch hook
 export const useFetch = (url, method = "GET") => {
+  // state that is general enough to be reused for multiple purposes
   const [data, setData] = useState(null);
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(null);
@@ -19,9 +21,11 @@ export const useFetch = (url, method = "GET") => {
   useEffect(() => {
     const controller = new AbortController();
 
+    // creating the fetching function inside useEffect and therefore not a dependency.
     const fetchData = async (fetchOptions) => {
       setIsPending(true);
 
+      // this is the async function that tries to grab data & throws error if unable to.
       try {
         const res = await fetch(url, {
           ...fetchOptions,
@@ -58,5 +62,6 @@ export const useFetch = (url, method = "GET") => {
     };
   }, [url, method, options]);
 
+  // returning the data state from the fetch function
   return { data, isPending, error, postData };
 };
