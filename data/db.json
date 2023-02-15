@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "blog one",
+      "body": "this is where text will go",
+      "topic": "Beef Initiative",
+      "id": 1
+    },
+    {
+      "title": "blog two",
+      "body": "this is where text will go",
+      "topic": "Beef Initiative",
+      "id": 2
+    },
+    {
+      "title": "blog three",
+      "body": "this is where text will go",
+      "topic": "Bitcoin",
+      "id": 3
+    }
+  ]
+}
