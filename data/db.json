@@ -1,22 +1,46 @@
 {
   "blogs": [
     {
-      "title": "blog one",
+      "title": "Bitcoin Tax Treatment",
       "body": "this is where text will go",
-      "topic": "Beef Initiative",
+      "topic": "Taxes and Estate Planning",
       "id": 1
     },
     {
-      "title": "blog two",
+      "title": "Insights from the Fourth Largest Lightning Node",
       "body": "this is where text will go",
-      "topic": "Beef Initiative",
+      "topic": "Lightning",
       "id": 2
     },
     {
-      "title": "blog three",
+      "title": "Bitcoin Mining Electrifying Africa",
       "body": "this is where text will go",
-      "topic": "Bitcoin",
+      "topic": "Mining",
       "id": 3
+    },
+    {
+      "title": "FediPool as a means to Decentralize Mining",
+      "body": "this is where text will go",
+      "topic": "Mining",
+      "id": 4
+    },
+    {
+      "title": "What is Bitcoin Cold Storage?",
+      "body": "this is where text will go",
+      "topic": "Custody",
+      "id": 5
+    },
+    {
+      "title": "What is a Bitcoin Node?",
+      "body": "this is where text will go",
+      "topic": "Infrastructure and Technology",
+      "id": 6
+    },
+    {
+      "title": "Why does Bitcoin Have Value?",
+      "body": "this is where text will go",
+      "topic": "Infrastructure and Technology",
+      "id": 7
     }
   ]
 }
