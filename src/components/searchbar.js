@@ -13,9 +13,8 @@ export default function Searchbar() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // redirects the user to a seperate "search" page with term-specific query parameter.
-    // the "search" page was not created for this demo.
-    navigate(`/search?q=${term}`);
+    // redirects the user to a seperate "Blog List" page with term-specific query parameter.
+    navigate(`/BlogList?q=${term}`);
   };
 
   return (
