@@ -6,6 +6,7 @@
   padding: 0;
 }
 .blog-list li {
+  background-color: #e4e4e4;
   border: 1px solid #e4e4e4;
   box-sizing: border-box;
   padding: 10px;
