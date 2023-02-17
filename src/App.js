@@ -1,27 +1,20 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// data components
+import ArticleData from "./data/db.json";
 
 // page components
-import Searchbar from "./components/searchbar";
-import BlogList from "./components/BlogList";
+import SearchBar from "./components/SearchBar";
 
 // styles
 import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Searchbar />
-        <header className="App-header">
-          <p>Bitcoin Learning Center</p>
-        </header>
-        <div>
-          <Routes>
-            <Route path="/blogs/:id" element={<BlogList />} />
-          </Routes>
-        </div>
-      </div>
-    </Router>
+    <div className="App">
+      <header>
+        <p>Bitcoin Learning Center</p>
+      </header>
+      <SearchBar placeholder="Search for an Article..." data={ArticleData} />
+    </div>
   );
 }
 
