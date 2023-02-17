@@ -1,46 +1,70 @@
 {
   "blogs": [
     {
-      "title": "Bitcoin Tax Treatment",
-      "body": "this is where text will go",
+      "title": "Bitcoin Tax Accounting",
       "topic": "Taxes and Estate Planning",
+      "link": "https://river.com/learn/bitcoin-tax-accounting/",
       "id": 1
     },
     {
       "title": "Insights from the Fourth Largest Lightning Node",
-      "body": "this is where text will go",
       "topic": "Lightning",
+      "link": "https://blog.river.com/insights-from-the-4th-largest-lightning-network-node/",
       "id": 2
     },
     {
-      "title": "Bitcoin Mining Electrifying Africa",
-      "body": "this is where text will go",
-      "topic": "Mining",
+      "title": "Security best practices to consider",
+      "topic": "Custody",
+      "link": "https://blog.river.com/security-best-practices-to-consider/",
       "id": 3
     },
     {
-      "title": "FediPool as a means to Decentralize Mining",
-      "body": "this is where text will go",
+      "title": "What Could Bitcoin Mining Look Like at One Zettahash?",
       "topic": "Mining",
+      "link": "https://blog.river.com/security-best-practices-to-consider/",
       "id": 4
     },
     {
       "title": "What is Bitcoin Cold Storage?",
-      "body": "this is where text will go",
       "topic": "Custody",
+      "link": "https://river.com/learn/what-is-bitcoin-cold-storage/",
       "id": 5
     },
     {
       "title": "What is a Bitcoin Node?",
-      "body": "this is where text will go",
       "topic": "Infrastructure and Technology",
+      "link": "https://river.com/learn/what-is-a-bitcoin-node/",
       "id": 6
     },
     {
-      "title": "Why does Bitcoin Have Value?",
-      "body": "this is where text will go",
-      "topic": "Infrastructure and Technology",
+      "title": "Bitcoin Privacy and Anonymity",
+      "topic": "Bitcoin Basics",
+      "link": "https://river.com/learn/bitcoin-privacy-and-anonymity/",
       "id": 7
+    },
+    {
+      "title": "Why Does Bitcoin Have Value",
+      "topic": "Bitcoin Markets and Price",
+      "link": "https://river.com/learn/why-do-bitcoin-have-value/",
+      "id": 8
+    },
+    {
+      "title": "What Is Bitcoin Mining?",
+      "topic": "Bitcoin Mining",
+      "link": "https://river.com/learn/what-is-bitcoin-mining/",
+      "id": 9
+    },
+    {
+      "title": "What Is a Bitcoin Halving?",
+      "topic": "Bitcoin Mining",
+      "link": "https://river.com/learn/what-is-a-bitcoin-halving/",
+      "id": 10
+    },
+    {
+      "title": "Investing Bitcoin in an LLC",
+      "topic": "Taxes and Estate Planning",
+      "link": "https://river.com/learn/investing-bitcoin-in-llc/",
+      "id": 11
     }
   ]
 }
