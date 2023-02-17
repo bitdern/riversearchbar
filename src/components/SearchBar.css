@@ -19,8 +19,8 @@
   height: 60px;
   width: 50px;
   background-color: white;
-  display: grid;
-  place-items: center;
+  display: inline-block;
+  align-items: center;
 }
 
 input:focus {

@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>Bitcoin Learning Center</p>
+      <header className="header"> Bitcoin Learning Center </header>
       <SearchBar placeholder="Search for an Article..." data={ArticleData} />
     </div>
   );
