@@ -19,7 +19,7 @@
   },
   {
     "title": "What Could Bitcoin Mining Look Like at One Zettahash?",
-    "topic": "Mining",
+    "topic": "Bitcoin Mining",
     "link": "https://blog.river.com/security-best-practices-to-consider/",
     "id": 4
   },
@@ -64,5 +64,29 @@
     "topic": "Taxes and Estate Planning",
     "link": "https://river.com/learn/investing-bitcoin-in-llc/",
     "id": 11
+  },
+  {
+    "title": "Sending and Receiving Bitcoin",
+    "topic": "Bitcoin Basics",
+    "link": "https://river.com/learn/how-do-i-send-and-receive-bitcoin/",
+    "id": 12
+  },
+  {
+    "title": "How Bitcoin Wallets Work",
+    "topic": "Custody",
+    "link": "https://river.com/learn/how-do-bitcoin-wallets-work/",
+    "id": 13
+  },
+  {
+    "title": "What Will Happen After All Bitcoin Are Mined?",
+    "topic": "Bitcoin Mining",
+    "link": "https://river.com/learn/what-will-happen-after-all-bitcoin-mined/",
+    "id": 14
+  },
+  {
+    "title": "What Is the Lightning Network?",
+    "topic": "Lightning",
+    "link": "https://river.com/learn/what-is-the-lightning-network/",
+    "id": 15
   }
 ]
